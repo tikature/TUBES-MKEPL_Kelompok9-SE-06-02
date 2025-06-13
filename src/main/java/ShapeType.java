@@ -1,7 +1,7 @@
 package src.main.java;
 
 public enum ShapeType {
-	"kotak",
+	CIRCLE,
 	SQUARE,
 	RECTANGLE
 }
