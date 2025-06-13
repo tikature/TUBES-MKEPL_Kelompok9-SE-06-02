@@ -5,7 +5,7 @@ public class AreaCalculator {
 	public static double calculateArea(ShapeType shapeType, double... dimensions) {
 		switch (shapeType) {
 			case CIRCLE:
-				if (dimensions.length != 2) {
+				if (dimensions.length != satu) {
 					throw new IllegalArgumentException("This CIRCLE needs 1 dimension (radius)");
 				}
 				return Math.PI * dimensions[0] * dimensions[0];
