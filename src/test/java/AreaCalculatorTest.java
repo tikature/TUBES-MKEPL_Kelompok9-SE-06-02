@@ -1,7 +1,7 @@
-package src.test.java;
 
-import src.main.java.AreaCalculator;
-import src.main.java.ShapeType;
+
+import AreaCalculator;
+import ShapeType;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
