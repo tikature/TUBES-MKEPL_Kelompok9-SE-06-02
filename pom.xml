@@ -13,6 +13,14 @@
       </dependency>
   </dependencies>
 
+  <distributionManagement>
+    <repository>
+      <id>github</id>
+      <name>GitHub Packages</name>
+      <url>https://maven.pkg.github.com/tikature/TUBES-MKEPL_Kelompok9-SE-06-02</url>
+    </repository>
+  </distributionManagement>
+
   <build>
       <plugins>
           <plugin>
