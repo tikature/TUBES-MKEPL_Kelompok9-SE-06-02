@@ -16,7 +16,7 @@ public class AreaCalculator {
 				return dimensions[0] * dimensions[0];
 			case RECTANGLE:
 				if (dimensions.length != 2) {
-					throw new IllegalArgumentException("This RECTANGLE needs 2 dimensions (length and width)");
+					throw new IllegalArgumentException("ssssThis RECTANGLE needs 2 dimensions (length and width)");
 				}
 				return dimensions[0] * dimensions[1];
 			default:
