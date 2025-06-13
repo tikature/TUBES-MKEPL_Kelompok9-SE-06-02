@@ -10,12 +10,12 @@ public class AreaCalculator {
 				}
 				return Math.PI * dimensions[0] * dimensions[0];
 			case SQUARE:
-				if (dimensions.length != 1) {
+				if (dimensions.length != 2) {
 					throw new IllegalArgumentException("This SQUARE needs 1 dimension (side)");
 				}
 				return dimensions[0] * dimensions[0];
 			case RECTANGLE:
-				if (dimensions.length != 2) {
+				if (dimensions.length != 3) {
 					throw new IllegalArgumentException("This RECTANGLE needs 2 dimensions (length and width)");
 				}
 				return dimensions[0] * dimensions[1];
