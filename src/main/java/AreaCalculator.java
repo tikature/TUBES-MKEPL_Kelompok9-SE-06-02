@@ -23,10 +23,4 @@ public class AreaCalculator {
 				throw new UnsupportedOperationException("Unknown shape type");
 		}
 	}
-
-	public static void main(String[] args) {
-		System.out.println("Luas Lingkaran (r=3): " + calculateArea(ShapeType.CIRCLE, 3));
-		System.out.println("Luas Persegi (s=4): " + calculateArea(ShapeType.SQUARE, 4));
-		System.out.println("Luas Persegi Panjang (l=5, w=2): " + calculateArea(ShapeType.RECTANGLE, 5, 2));
-	}
 }
